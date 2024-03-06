@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "theme": "relaxed"
+  },
+  "awards": [],
+  "basics": {
+    "name": "Kumar Sambhav Jain",
+    "label": "Principal Sofware Engineer",
+    "picture": "https://media.licdn.com/dms/image/D4D03AQGP4usi7wcjGw/profile-displayphoto-shrink_200_200/0/1675328285783?e=1707350400&v=beta&t=22r2BGDrI9Hr6piYMBp501yHDkchmBhlhO_XCSssI7w",
+    "email": "kumar.sambhav.jain@gmail.com",
+    "phone": "8527543244",
+    "website": "http://registry.jsonresume.org/ksambhav",
+    "summary": "Experienced and innovative software backend engineer with over 12 years of hands-on expertise in developing robust, scalable, and high-performance backend solutions. Proficient in a wide array of programming languages and technologies, including Java, Spring Boot and Apache Spark, Postgres, MySQL and Kafka. Skilled in containerization technologies like Kubernetes and Docker, with a strong understanding of cloud platforms including AWS and Azure. Adept at leveraging Apache Kafka for building real-time streaming data pipelines and event-driven architectures. I have proven track record of leading successful project implementations from concept to deployment, while adhering to strict timelines and code and documentation quality standards. Highly collaborative, with a demonstrated ability to work effectively in cross-functional teams to drive innovation and achieve business objectives. Seeking to leverage my extensive experience to contribute significantly to the success of dynamic projects and initiatives within a forward-thinking organization.",
+    "location": {
+      "city": "Delhi",
+      "countryCode": "IN",
+      "region": "NCR"
+    },
+    "profiles": [
+      {
+        "url": "http://stackoverflow.com/users/945034/kumar-sambhav?tab=profile",
+        "username": "kumar-sambhav",
+        "network": "stackoverflow"
+      },
+      {
+        "url": "https://www.linkedin.com/in/kumarsambhavjain",
+        "username": "kumarsambhavjain",
+        "network": "LinkedIn"
+      },
+      {
+        "url": "https://www.credly.com/badges/8936933e-180b-4298-a8e5-18eae87022b2/linked_in_profile",
+        "username": "OCPJ6",
+        "network": "oracle"
+      },
+      {
+        "url": "https://university.mongodb.com/course_completion/3a3237a8-734a-4b57-95f9-81ca8e0c/printable",
+        "username": "MongoDB",
+        "network": "MongoDB"
+      }
+    ]
+  },
+  "education": [
+    {
+      "courses": [],
+      "endDate": "2010-07-01",
+      "startDate": "2006-07-01",
+      "studyType": "Bachelor",
+      "area": "Computer Science",
+      "institution": "JIIT, Noida"
+    }
+  ],
+  "interests": [],
+  "languages": [
+    {
+      "fluency": "Fluent speaker",
+      "language": "English"
+    },
+    {
+      "fluency": "Native speaker",
+      "language": "Hindi"
+    }
+  ],
+  "publications": [],
+  "references": [],
+  "skills": [
+    {
+      "keywords": [
+        "Design Patterns",
+        "Object Oriented Design",
+        "SOLID Principle",
+        "Micro Service Architecture"
+      ],
+      "level": "Master",
+      "name": "System Design / Architecture"
+    },
+    {
+      "keywords": [
+        "MVC",
+        "Data",
+        "Security",
+        "OAuth2",
+        "Batch",
+        "Boot",
+        "Modulith"
+      ],
+      "level": "Master",
+      "name": "Spring"
+    },
+    {
+      "keywords": [
+        "Oracle Certified Professional, Java SE 6",
+        "Java 17",
+        "Java 21",
+        "Java 11"
+      ],
+      "level": "Master",
+      "name": "Java / JVM"
+    },
+    {
+      "keywords": [
+        "RDBMS",
+        "Mongo"
+      ],
+      "level": "Master",
+      "name": "Database / Cache"
+    },
+    {
+      "keywords": [
+        "Apache Kafka",
+        "Kafka Streams",
+        "Kafka Connect"
+      ],
+      "level": "Master",
+      "name": "Messaging"
+    },
+    {
+      "name": "System Monitoring and Observability",
+      "level": "Master",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "NewRelic",
+        "PinPoint"
+      ]
+    },
+    {
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Kubernetes"
+      ],
+      "level": "Master",
+      "name": "Cloud / DevOps"
+    }
+  ],
+  "volunteer": [],
+  "work": [
+    {
+      "highlights": [
+        "Project : Trade Connect",
+        "Skill used : Java, Kafka(Confluent Cloud, Kafka Connect, Kafka Streams), Spring Boot, Azure, CosmosDB for NoSQL",
+        "The project caters to one of the biggest asset manager for post trade lifecycle management"
+      ],
+      "summary": "",
+      "startDate": "2023-07-04",
+      "website": "https://www.hub.com/",
+      "position": "Principal Software Engineer, Director Technology",
+      "location": "Gurugram",
+      "company": "HUB",
+      "organization": "HUB"
+    },
+    {
+      "highlights": [
+        "Project : UPI",
+        "Skill used : Java, Kafka, Spring Boot, MySQL",
+        "Transaction Recon system - Scalable  system for doing transaction recon among UPI transaction participants.",
+        "Responsible for technical debt and code quality of around 10 codebases.Incorporated code quality gates in CI/CD pipelines. Mentoring team about best practices for writing SOLID code.",
+        "Revamped outdated modules in terms of technical debt and modularity - splitting into independent microservices"
+      ],
+      "summary": "",
+      "endDate": "2023-06-26",
+      "startDate": "2021-08-01",
+      "website": "https://www.paytmbank.com/home",
+      "position": "Senior Technical Lead",
+      "location": "Noida",
+      "company": "Paytm Payments Bank",
+      "organization": "Paytm Payments Bank"
+    },
+    {
+      "highlights": [
+        "Project : Bank Reporting System",
+        "Skill used : Java, Kafka, Kafka Streams, Kafka Connect, Apache Spark, Spring Boot",
+        "Responsible for end to end delivery of critical features related to passbook and statement module",
+        "Revamped outdated modules for bulk statement delivery which sends out ~7 million monthly statements",
+        "Designing and implementing feature that delivers on-demand account statement and reports from data warehouse to corporate accounts",
+        "Data Ingestion pipeline using Kafka Connect, Kafka Streams",
+        "Encouraged developers to write SOLID and test friendly code",
+        "Knowledge sharing and training session for new joiners and freshers"
+      ],
+      "summary": "Involved in design and implementation of new features, production deployment.",
+      "startDate": "2019-05-13",
+      "endDate": "2021-07-30",
+      "website": "https://www.paytmbank.com/home",
+      "position": "Technical Lead",
+      "location": "Noida",
+      "company": "Paytm Payments Bank",
+      "organization": "Paytm Payments Bank"
+    },
+    {
+      "highlights": [
+        "Project Name :- Data Delivery",
+        "Skills/Tech. Used :- Java 8, Google Guice, MongoDB, Kafka, Zookeeper, Spark, AWS ( ECS,ECR, SNS, ELB, Lambda ), Docker, GitLab, Angular 6, Angular Material"
+      ],
+      "summary": "An internal project that provides financial data feed to other teams/prject for processing.",
+      "startDate": "2016-09-26",
+      "endDate": "2019-05-10",
+      "website": "https://ihsmarkit.com/",
+      "position": "Senior Software Developer",
+      "location": "Noida",
+      "company": "IHS Markit",
+      "organization": "IHS Markit"
+    },
+    {
+      "highlights": [
+        "Project Name :- WebInsure Financial Management",
+        "Skills/Tech. Used :- Java, Spring(Boot, MVC, Batch, Integration), RabbitMQ, MongoDB, PostgreSQL, JavaScript, AngularJS, Bower, Grunt, Yeoman",
+        "Part of core team handling design and development of core features.",
+        "Design and code refactoring to achieve better performance.",
+        "Modularized front-end code structure and introduced automated build process using Bower & Grunt.",
+        "Awarded on-spot awards and monthly performance awards on various occasions."
+      ],
+      "summary": "The project provides financial management solution to US Health Insurance market. The software is build upon Micro Service Architecture using Java, Spring, RabbitMQ, SQL, MongoDB, AngularJS. As a team member my responsibilities includes brainstorming about technology stack, taking part in design and development of requirements ensuring quality and unit test friendliness. I have also been assigned proof-of-concept activity during project ramp up and have guided other teams for same.",
+      "endDate": "2016-09-09",
+      "startDate": "2014-03-21",
+      "website": "http://hcentive.com",
+      "position": "Senior Software Developer",
+      "company": "hCentive",
+      "organization": "hCentive",
+      "location": "Noida"
+    },
+    {
+      "highlights": [
+        "Project Name :- JohnDeere",
+        "Skills/Tech. Used :- Java, Portlets, jQuery",
+        "Developed a utility tool to verfiy configuration properties across various build environment.",
+        "Maven-ized project structure to improve modularity and re-usability.",
+        "Appraised for my debugging and code refactoring skills."
+      ],
+      "summary": "Worked on portal for company's esteem client using Java, Spring and Portlets.",
+      "endDate": "2014-03-20",
+      "startDate": "2012-12-24",
+      "website": "http://www.sapient.com/",
+      "position": "Software Developer",
+      "company": "Sapient",
+      "organization": "Sapient",
+      "location": "Gurgaon"
+    },
+    {
+      "highlights": [
+        "Project Name :- Accenture Life Insurance Platform",
+        "Skills/Tech. Used :- Java, RDBMS, jQuery, HTML, Spring",
+        "Involved in implementation of user story using Spring Batch and Integration.",
+        "Active player in bug fixing team. Learned code debugging skills",
+        "Revamped front-end using jQuery."
+      ],
+      "summary": "Joined as a fresher in a project building Life Insurance product using Java, Spring and jQuery.",
+      "endDate": "2012-06-12",
+      "startDate": "2010-07-27",
+      "website": "http://www.accenture.com/",
+      "position": "Software Developer",
+      "company": "Accenture",
+      "organization": "Accenture",
+      "location": "Mumbai"
+    }
+  ]
+}
