@@ -5,6 +5,8 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
 
+import static java.lang.Integer.max;
+
 public class Knapsack {
 
     public static final Logger log = LoggerFactory.getLogger(Knapsack.class);
@@ -26,7 +28,7 @@ public class Knapsack {
                 if (weight[i - 1] <= j) {
                     int valueIfChosen = t[i - 1][j - weight[i - 1]] + value[i - 1];
                     int valueIfNotChosen = t[i - 1][j];
-                    t[i][j] = Integer.max(valueIfChosen, valueIfNotChosen);
+                    t[i][j] = max(valueIfChosen, valueIfNotChosen);
                 } else {
                     t[i][j] = t[i - 1][j];
                 }
@@ -43,7 +45,7 @@ public class Knapsack {
             log.info("Nothing to put or can go in bag");
             return 0;
         } else if (weight[length - 1] <= capacity) {
-            return Integer.max(
+            return max(
                     value[length - 1] + recursive(weight, value, capacity - weight[length - 1], length - 1),
                     recursive(weight, value, capacity, length - 1)
             );
@@ -69,7 +71,7 @@ public class Knapsack {
             log.info("From the memo");
             return cache[length][capacity];
         } else if (weight[length - 1] <= capacity) {
-            int max = Integer.max(
+            int max = max(
                     value[length - 1] + maxProfit(weight, value, capacity - weight[length - 1], length - 1, cache),
                     maxProfit(weight, value, capacity, length - 1, cache)
             );
@@ -81,5 +83,23 @@ public class Knapsack {
             cache[length][capacity] = maxProfit;
             return maxProfit;
         }
+    }
+
+    static int knapsackUnbounded(int n, int w, int[] profit, int[] weight) {
+        int[][] t = new int[n + 1][w + 1];
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= w; j++) {
+                if (weight[i - 1] <= j) {
+                    //item selected
+                    t[i][i] = max(
+                            profit[i - 1] + t[i][j - weight[i - 1]],
+                            t[i - 1][j]
+                    );
+                } else {
+                    t[i][j] = t[i - 1][j];
+                }
+            }
+        }
+        return t[n][w];
     }
 }
